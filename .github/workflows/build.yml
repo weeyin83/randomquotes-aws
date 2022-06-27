@@ -28,7 +28,7 @@ jobs:
     - name: Install Octopus CLI
       uses: OctopusDeploy/install-octopus-cli-action@v1.2.0
     - name: Zip Files
-      run: octo pack --id="RandomQuotes" --format="zip" --version=${{ github.run_number }} --basePath=${{ github.workspace }}\site\ --outFolder=${{ github.workspace }}\output
+      run: octo pack --id="RandomQuotes" --format="zip" --version=${{ github.run_number }} --basePath=${{ github.workspace }}/site/ --outFolder=${{ github.workspace }}/output
     # We take the zip file we created and push them to the Octopus Deploy server instance
     - name: Push Bicep files
       run: octo push --package="${{ github.workspace }}\output\RandomQuotes.${{ github.run_number }}.zip" --server="${{ secrets.OCTOPUS_SERVER_URL }}" --apiKey="${{ secrets.OCTOPUS_API_TOKEN }}" --space="${{ secrets.OCTOPUS_SPACE }}"
