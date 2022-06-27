@@ -25,4 +25,5 @@ jobs:
       run: dotnet publish -o site --configuration Release
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    
+    - name: Install Octopus CLI
+      uses: OctopusDeploy/install-octopus-cli-action@v1.2.0
