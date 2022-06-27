@@ -1,0 +1,8 @@
+C:\Users\SarahLean\Documents\AWSApplication\RandomQuotes\site\RandomQuotes.exe
+C:\Users\SarahLean\Documents\AWSApplication\RandomQuotes\site\appsettings.Development.json
+C:\Users\SarahLean\Documents\AWSApplication\RandomQuotes\site\appsettings.json
+C:\Users\SarahLean\Documents\AWSApplication\RandomQuotes\site\bundleconfig.json
+C:\Users\SarahLean\Documents\AWSApplication\RandomQuotes\site\RandomQuotes.dll
+C:\Users\SarahLean\Documents\AWSApplication\RandomQuotes\site\RandomQuotes.deps.json
+C:\Users\SarahLean\Documents\AWSApplication\RandomQuotes\site\RandomQuotes.runtimeconfig.json
+C:\Users\SarahLean\Documents\AWSApplication\RandomQuotes\site\RandomQuotes.pdb
